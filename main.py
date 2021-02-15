@@ -22,7 +22,7 @@ lista2 = [1,2,3,4,4,1,3,4,5,1,2,3,2,1,2,23,22,32,32,3,23,23,2,32]
 lista3= []
 
 for item in lista:
-    if item % 2 != 0:
-        parni.append(item)
+    if item not in lista3:
+        lista3.append(item)
 
 print(lista3)
