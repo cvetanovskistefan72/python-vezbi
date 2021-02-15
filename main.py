@@ -16,3 +16,11 @@ for item in lista:
 
 #TODO izbrisi duplikati
 lista2 = [1,2,3,4,4,1,3,4,5,1,2,3,2,1,2,23,22,32,32,3,23,23,2,32]
+
+lista3= []
+
+for item in lista2:
+    if item not in lista3:
+        lista3.append(item)
+
+print(lista3)
