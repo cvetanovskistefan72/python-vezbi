@@ -12,9 +12,7 @@ parni = []
 
 print("hehe")
 for item in lista:
-    print("hehe")
     if item % 2 != 0:
-        print("hehe")
         parni.append(item)
 
 
