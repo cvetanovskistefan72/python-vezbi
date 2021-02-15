@@ -26,3 +26,6 @@ for item in lista:
         lista3.append(item)
 
 print(lista3)
+
+
+
