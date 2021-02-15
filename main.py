@@ -9,8 +9,12 @@ lista.reverse()
 #TODO izvadi parni neparni
 
 parni = []
+
+print("hehe")
 for item in lista:
-    if item % 2 == 0:
+    print("hehe")
+    if item % 2 != 0:
+        print("hehe")
         parni.append(item)
 
 
