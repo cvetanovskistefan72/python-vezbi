@@ -14,4 +14,5 @@ for item in lista:
         parni.append(item)
 
 
-print(parni)
+#TODO izbrisi duplikati
+lista2 = [1,2,3,4,4,1,3,4,5,1,2,3,2,1,2,23,22,32,32,3,23,23,2,32]
